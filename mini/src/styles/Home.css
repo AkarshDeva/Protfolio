@@ -1,0 +1,115 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;  /* reduced top padding */
+  background: #081b29;
+  color: #fff;
+}
+
+
+
+.write {
+  width: 50%;
+  max-width: 550px;
+}
+
+.write h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.write h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.8;
+  color: #00abf0;
+}
+
+.write p {
+  margin: 20px 0;
+  opacity: 0.85;
+  line-height: 1.5rem;
+}
+
+/* button */
+.resume-btn {
+  display: inline-block;
+  background: #00abf0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 171, 240, 0.25);
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.resume-btn:hover {
+  background: transparent;
+  color: #00abf0;
+  border: 2px solid #00abf0;
+  transform: translateY(-3px);
+}
+
+/* Image Card clean modern look */
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.photo img {
+  width: 450px;
+  height: auto;
+  border-radius: 22px;
+  object-fit: cover;
+  border: 2px solid rgba(0, 171, 240, 0.4);
+  box-shadow:
+    0 0 20px rgba(0, 171, 240, 0.5),
+    0 0 60px rgba(0, 171, 240, 0.2);
+  filter: brightness(1.08) contrast(1.05) saturate(1.1);
+  transition: 0.35s ease-in-out;
+}
+
+/* Hover Creative Effect */
+.photo img:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 0 25px rgba(0, 171, 240, 0.8),
+    0 0 80px rgba(0, 171, 240, 0.35);
+  filter: brightness(1.12) contrast(1.12) saturate(1.2);
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+ 
+}
+
+.social-icon {
+  font-size: 18px;
+  padding: 12px 14px;
+  border-radius: 50%;
+  background-color: #48464f;
+ color: #00abf0;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: #1d1718;
+  transform: translateY(-5px);
+}
+

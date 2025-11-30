@@ -1,0 +1,50 @@
+.navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #061A27;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+  z-index: 999;
+}
+
+
+/* Brand Name */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+/* Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+/* Hover Effects */
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #00C3FF; /* Neon Blue */
+  border-bottom: 2px solid #00C3FF;
+  padding-bottom: 5px;
+}
+
+/* Avoid section hiding under fixed navbar */
+section {
+  scroll-margin-top: 100px;
+}

@@ -13,16 +13,17 @@ const About = () => {
 
       <div className="about-box">
         Hello! I'm <span>Akarsh Deva</span>, a 
-        <span> 3rd-year B.Tech IT student </span> passionate about building dynamic,
-        scalable & user-friendly web apps.
-        I work with the <span>MERN stack</span> and enjoy solving problems using 
-        <span> Java & Data Structures and Algorithms</span>.
+        <span> Full Stack Developer passionate about building dynamic,  
+scalable & user-friendly web applications.  
+I work with the <span>Full Stack MERN ecosystem</span> and enjoy building intelligent systems using  
+<span>AI, RAG pipelines & Dockerized deployments</span>.</span>.
         
         I completed a <span>Summer Internship at SoftPROSolutions</span> working
         on MERN-based projects.
         
-        My goal is to learn, build, and grow into a professional full-stack
-        developer .
+        My goal is to learn, build, and grow into a professional full-stack  
+developer while continuously exploring modern technologies and contributing  
+to real-world impactful projects.
       </div>
     </section>
   );

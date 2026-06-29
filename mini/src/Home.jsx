@@ -10,9 +10,10 @@ const Home = () => {
         <div className="write">
             <h1>Hi, I'm Akarsh Deva</h1>
             <h3>MERN Developer & Java DSA Practitioner</h3>
-           <p> I build web applications using the MERN stack and write efficient solutions
-            using Java and Data Structures & Algorithms. I enjoy creating, solving
-            problems, and growing as a developer every day.</p>
+           <p> I build full-stack web applications using the MERN ecosystem and develop intelligent, 
+               scalable solutions using AI tools, RAG systems, and Dockerized architectures. 
+               I enjoy creating impactful products, solving real-world problems, 
+               and continuously growing as a developer every day.</p>
             <a href="/Resume.pdf" download className="resume-btn">
   Resume
 </a>
@@ -38,7 +39,7 @@ const Home = () => {
                    </a>
              
                    <a
-                     href="https://twitter.com/YOUR_USERNAME"
+                     href="https://x.com/DevaAkarsh53521"
                      target="_blank"
                      rel="noreferrer"
                      className="social-icon"
